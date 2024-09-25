@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="a website for introduce the univeral tactile map" content="">
+    <meta name="Yu Shin Liou" content="">
+
+    <title>Basic Company Template for Bootstrap 3</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom CSS for the 'One Page Wonder' Template -->
+    <link href="css/one-page-wonder.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.php">Start Bootstrap</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#about">Why</a></li>
+            <li><a href="#services">How</a></li>
+            <li><a href="#contact">Next</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container -->
+    </nav>
+
+    <div class="header-image">
+
+      <div class="headline">
+        <div class="container">
+          <h1>通用化觸摸式地圖</h1>
+          <h2>真正設計給所有人的地圖</h2>
+        </div>
+      </div>
+
+    </div><!-- /header-image -->
+
+    <div class="container">
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+      
+      <div class="featurette" id="about">
+        <img class="featurette-image img-responsive img-responsive pull-right" src="img/img-about.jpg">
+        <h2 class="featurette-heading">Why <span class="text-muted">通用化觸覺地圖？</span></h2>
+        <p class="lead">多數的時候當我們設計一款地圖，我們考慮地圖上該使用的icon、虛線實線，以及顏色標記，讓地圖讀起來清楚又直覺。 <br>
+            但是這些設計都是著重在明眼人的需求上，而沒有考慮到色弱，半盲，全盲等視覺能力各異的使用族群。 <br>
+            通用化觸摸式地圖是想要回答這個問題：我們要如何設計一款地圖，能讓不同的族群都容易閱讀？通用化觸摸式地圖是利用表面凹凸創除了視覺，還可以利用觸覺去理解地圖的內容。這其中包含不同的材質、符號。<br>
+        </p>
+      </div>
+
+      <h2 >
+        如同我們需要視覺設計，觸覺也需要設計
+      </h2>
+
+      <hr class="featurette-divider">
+
+      <div class="featurette" id="services">
+        <img class="featurette-image img-circle img-responsive pull-left" src="http://placecreature.com/500/500">
+        <h2 class="featurette-heading">打造<span class="text-muted">「好讀」的觸覺設計</span></h2>
+        <p class="lead">直接將針對明眼人設計的地圖轉換成有凹凸標記的觸覺地圖容易元素太多，太混亂了。目前台灣還沒有針對這些標記統一的觸覺地圖設計準則，不過波蘭學者Jakub Wabiński 綜合了目前學界的研究成果、ISO，Tactual and Bold Print Mapping Committee (TABMAP)等組織提出的設計原則，歸納出了觸覺設計的參考指引</p>          
+        <div>
+            <h3>符號標記</h3>
+            
+            <ul class="lead">
+              <li class="lead">符號標記應該越簡單越好，例如圓形、方形，三角形。</li>
+              <li class="lead">在設計的時候有三個因素會影響到觸覺體驗：尺寸、形狀、實心或者空心，虛線或者連續實線。根據研究最容易辨別的是空心只有外部輪廓的形狀。</li>
+              <li class="lead">同樣形狀的符號在地圖上不應該摻雜不同的元素：例如在同一張地圖上不應該混合使用實心以及空心的原型。</li>
+              <li class="lead">符號不應該跟材質混用，例如已經使用了圓點符號，那就不應該使用包含原點的材質。</li>
+              <li class="lead">為了避免不舒服的觸感或者是觸摸的時候被割傷，建議用扇形、梯形來取代正方形。</li>
+              <img class="featurette-image img-responsive img-responsive pull-right-fixh" src="img/shape.png">
+            </ul>
+          
+            <h3>線條標記</h3>
+            <ul class="lead">
+              <li class="lead">兩條線相交的時候，比較不重要的線應該留下一段空白。</li>
+              <li class="lead">不連續的虛線比實線更容易閱讀。
+                <ul>
+                  <li>如果線段是點點，直徑應該大於2mm 或者小於0.7mm，以避免跟點字混淆。</li>
+                </ul>
+              </li>
+              <li class="lead">嵌在材質標記內部的線條，至少要有兩個屬性跟材質不一樣。例如如果一條實線線條，會通過在實線線段組成材質區域，那實線線條需要粗細、觸感跟材質標記的實線線段不同。或者是放上不同高度的符號。</li>
+            </ul>
+            <img class="featurette-image img-responsive img-responsive pull-right-fixw" src="img/line.png">            
+            <h3>區域標記</h3>
+            <ul>
+              <li class="lead">區域標記是由不同分散程度的圖形組成不一樣的觸感，或者我們可以簡稱材質。材質可以藉由三個維度的元素來區分：圖形類別、粗細，疏密程度，寬度。</li>
+              <li class="lead">需要注意的部分是，一張地圖上最好盡量限縮使用的材質數量，不同的區域可以使用鄰接面的高低落差，或者是用不對稱的線段區分，例如一邊的線段是平滑直線，另外一邊則是三角形或者是方形。</li>
+            </ul>
+            <img class="featurette-image img-responsive img-responsive pull-right-fixw" src="img/texture.png">
+            <h3>文字以及標籤</h3>
+            <ul>
+              <li class="lead">建議使用縮寫以節省點字所需要的空間，但是地圖上需要放上圖例說明縮寫的意涵。</li>
+              <li class="lead">除了道路之外，地圖上的文字說明應該要是水平的。</li>
+              <li class="lead">文字不應該跟形狀符號混用來標記一個區域，應該用來說明一個區域的特徵。</li>
+              <li class="lead">文字大小應該至少14-18pt。</li>
+            </ul>
+            <img class="featurette-image img-responsive img-responsive pull-right-fixw" src="img/label.png">
+          </div>
+          
+      </div>
+
+
+
+      <hr class="featurette-divider">
+
+      <div class="featurette" id="contact">
+        <img class="featurette-image img-circle img-responsive pull-right" src="http://placecreature.com/500/500">
+        <h2 class="featurette-heading">想加入推廣通用地圖？<span class="text-muted">我們可以這樣做</span></h2>
+
+        <h3>一起關心台灣通用地圖的法規建置</h3>
+        <p class="lead">實務上，要製作一張清楚直覺的觸覺地圖是很困難的。
+          舉例來說我們或許會需要文字標記來說明符號的意涵，但是點字需要空間，印上點字可能會讓地圖變得擁擠不好閱讀，或者讓地圖變得太大，太消耗摸讀的時間。如果能夠有統一的標記規範，規範特定形狀的意涵，例如圓形代表消防逃生避難路線的起點，或者是廁所、樓梯等區域的縮寫，那就可以大大增加地圖的易讀性了。
+          目前台灣針對觸覺地圖還沒有完整的統一規範。不過消防署在民國112年發佈了逃生避難圖
+          <a href="https://www.rootlaw.com.tw/Attach/L-Doc/A040040131053900-1120915-6000-001.pdf" target="_blank">無障礙通用性指引</a>提供參考。我們可以一起關心立法過程，讓通用地可以有統一的規範，甚至正式納入法規。又或者更直接的方式...</p>
+        <h3>為你的空間設置通用地圖</h3>
+        <p class="lead">除了上面提到的設計準則，如同視覺設計，觸覺設計也需要考慮到各種大大小小的細節，例如形狀之間的間隔空隙，圖形鄰接面的厚度等等。除此之外觸覺刷需要3D列印，也是為什麼製作上經常讓人苦惱的原因。
+            <a href="https://www.pavi.org.tw" target="_blank">視障者家長協會</a>、
+            <a href="https://en.mobbytw.com" target="_blank">觸覺科技</a>、
+            <a href="https://ourcitylove.wixsite.com/ourcitylove" target="_blank">众社會企業</a>等團體有提供盲用地圖製作跟設計的服務。無從下手時也可以嘗試諮詢專業團體，</p>
+            
+
+        </p>
+      </div>
+      
+
+      <!-- /END THE FEATURETTES -->
+
+      <hr>
+
+      <!-- FOOTER -->
+      <footer>
+        <p>Copyright &copy; tactile map</p>
+      </footer>
+      <!-- /END OF FOOTER -->
+
+    </div><!-- /container -->
+
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+  </body>
+
+</html>
